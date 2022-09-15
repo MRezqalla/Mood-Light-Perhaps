@@ -341,6 +341,104 @@
 </package3d>
 </packages3d>
 </library>
+<library name="LinnesLab-Displays">
+<packages>
+<package name="DOTMATRIX_BL-M12A881UR">
+<description>&lt;b&gt;Source:&lt;/b&gt; http://www.betlux.com/product/LED_dot_matrix/BL-M12A881.PDF</description>
+<wire x1="-16" y1="16" x2="16" y2="16" width="0.127" layer="21"/>
+<wire x1="16" y1="16" x2="16" y2="-16" width="0.127" layer="21"/>
+<wire x1="16" y1="-16" x2="-16" y2="-16" width="0.127" layer="21"/>
+<wire x1="-16" y1="-16" x2="-16" y2="16" width="0.127" layer="21"/>
+<wire x1="-16" y1="16" x2="16" y2="16" width="0.127" layer="51"/>
+<wire x1="16" y1="16" x2="16" y2="-16" width="0.127" layer="51"/>
+<wire x1="16" y1="-16" x2="-16" y2="-16" width="0.127" layer="51"/>
+<wire x1="-16" y1="-16" x2="-16" y2="16" width="0.127" layer="51"/>
+<circle x="-14" y="14" radius="1.5" width="0.127" layer="51"/>
+<circle x="-10" y="14" radius="1.5" width="0.127" layer="51"/>
+<circle x="-6" y="14" radius="1.5" width="0.127" layer="51"/>
+<circle x="-2" y="14" radius="1.5" width="0.127" layer="51"/>
+<circle x="2" y="14" radius="1.5" width="0.127" layer="51"/>
+<circle x="6" y="14" radius="1.5" width="0.127" layer="51"/>
+<circle x="10" y="14" radius="1.5" width="0.127" layer="51"/>
+<circle x="14" y="14" radius="1.5" width="0.127" layer="51"/>
+<circle x="-14" y="10" radius="1.5" width="0.127" layer="51"/>
+<circle x="-10" y="10" radius="1.5" width="0.127" layer="51"/>
+<circle x="-6" y="10" radius="1.5" width="0.127" layer="51"/>
+<circle x="-2" y="10" radius="1.5" width="0.127" layer="51"/>
+<circle x="2" y="10" radius="1.5" width="0.127" layer="51"/>
+<circle x="6" y="10" radius="1.5" width="0.127" layer="51"/>
+<circle x="10" y="10" radius="1.5" width="0.127" layer="51"/>
+<circle x="14" y="10" radius="1.5" width="0.127" layer="51"/>
+<circle x="-14" y="6" radius="1.5" width="0.127" layer="51"/>
+<circle x="-10" y="6" radius="1.5" width="0.127" layer="51"/>
+<circle x="-6" y="6" radius="1.5" width="0.127" layer="51"/>
+<circle x="-2" y="6" radius="1.5" width="0.127" layer="51"/>
+<circle x="2" y="6" radius="1.5" width="0.127" layer="51"/>
+<circle x="6" y="6" radius="1.5" width="0.127" layer="51"/>
+<circle x="10" y="6" radius="1.5" width="0.127" layer="51"/>
+<circle x="14" y="6" radius="1.5" width="0.127" layer="51"/>
+<circle x="-14" y="2" radius="1.5" width="0.127" layer="51"/>
+<circle x="-10" y="2" radius="1.5" width="0.127" layer="51"/>
+<circle x="-6" y="2" radius="1.5" width="0.127" layer="51"/>
+<circle x="-2" y="2" radius="1.5" width="0.127" layer="51"/>
+<circle x="2" y="2" radius="1.5" width="0.127" layer="51"/>
+<circle x="6" y="2" radius="1.5" width="0.127" layer="51"/>
+<circle x="10" y="2" radius="1.5" width="0.127" layer="51"/>
+<circle x="14" y="2" radius="1.5" width="0.127" layer="51"/>
+<circle x="-14" y="-2" radius="1.5" width="0.127" layer="51"/>
+<circle x="-10" y="-2" radius="1.5" width="0.127" layer="51"/>
+<circle x="-6" y="-2" radius="1.5" width="0.127" layer="51"/>
+<circle x="-2" y="-2" radius="1.5" width="0.127" layer="51"/>
+<circle x="2" y="-2" radius="1.5" width="0.127" layer="51"/>
+<circle x="6" y="-2" radius="1.5" width="0.127" layer="51"/>
+<circle x="10" y="-2" radius="1.5" width="0.127" layer="51"/>
+<circle x="14" y="-2" radius="1.5" width="0.127" layer="51"/>
+<circle x="-14" y="-6" radius="1.5" width="0.127" layer="51"/>
+<circle x="-10" y="-6" radius="1.5" width="0.127" layer="51"/>
+<circle x="-6" y="-6" radius="1.5" width="0.127" layer="51"/>
+<circle x="-2" y="-6" radius="1.5" width="0.127" layer="51"/>
+<circle x="2" y="-6" radius="1.5" width="0.127" layer="51"/>
+<circle x="6" y="-6" radius="1.5" width="0.127" layer="51"/>
+<circle x="10" y="-6" radius="1.5" width="0.127" layer="51"/>
+<circle x="14" y="-6" radius="1.5" width="0.127" layer="51"/>
+<circle x="-14" y="-10" radius="1.5" width="0.127" layer="51"/>
+<circle x="-10" y="-10" radius="1.5" width="0.127" layer="51"/>
+<circle x="-6" y="-10" radius="1.5" width="0.127" layer="51"/>
+<circle x="-2" y="-10" radius="1.5" width="0.127" layer="51"/>
+<circle x="2" y="-10" radius="1.5" width="0.127" layer="51"/>
+<circle x="6" y="-10" radius="1.5" width="0.127" layer="51"/>
+<circle x="10" y="-10" radius="1.5" width="0.127" layer="51"/>
+<circle x="14" y="-10" radius="1.5" width="0.127" layer="51"/>
+<circle x="-14" y="-14" radius="1.5" width="0.127" layer="51"/>
+<circle x="-10" y="-14" radius="1.5" width="0.127" layer="51"/>
+<circle x="-6" y="-14" radius="1.5" width="0.127" layer="51"/>
+<circle x="-2" y="-14" radius="1.5" width="0.127" layer="51"/>
+<circle x="2" y="-14" radius="1.5" width="0.127" layer="51"/>
+<circle x="6" y="-14" radius="1.5" width="0.127" layer="51"/>
+<circle x="10" y="-14" radius="1.5" width="0.127" layer="51"/>
+<circle x="14" y="-14" radius="1.5" width="0.127" layer="51"/>
+<circle x="-18.43" y="-12" radius="0.635" width="1.27" layer="21"/>
+<pad name="1" x="-8.89" y="-12" drill="0.8" diameter="1.6764"/>
+<pad name="2" x="-6.35" y="-12" drill="0.8" diameter="1.6764"/>
+<pad name="3" x="-3.81" y="-12" drill="0.8" diameter="1.6764"/>
+<pad name="4" x="-1.27" y="-12" drill="0.8" diameter="1.6764"/>
+<pad name="5" x="1.27" y="-12" drill="0.8" diameter="1.6764"/>
+<pad name="6" x="3.81" y="-12" drill="0.8" diameter="1.6764"/>
+<pad name="7" x="6.35" y="-12" drill="0.8" diameter="1.6764"/>
+<pad name="8" x="8.89" y="-12" drill="0.8" diameter="1.6764"/>
+<pad name="9" x="8.89" y="12" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="10" x="6.35" y="12" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="11" x="3.81" y="12" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="12" x="1.27" y="12" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="13" x="-1.27" y="12" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="14" x="-3.81" y="12" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="15" x="-6.35" y="12" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="16" x="-8.89" y="12" drill="0.8" diameter="1.6764" rot="R180"/>
+<text x="-16" y="17" size="1.27" layer="25">&gt;NAME</text>
+<text x="-16" y="-18" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -567,6 +665,42 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-13.335" y="-20.955" size="0.7112" layer="25"/>
 <attribute name="VALUE" x="-13.335" y="-23.495" size="0.7112" layer="27"/>
 </element>
+<element name="LED1" library="LinnesLab-Displays" package="DOTMATRIX_BL-M12A881UR" value="" x="-31.75" y="-5.08" smashed="yes">
+<attribute name="NAME" x="-47.75" y="11.92" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-47.75" y="-23.08" size="1.27" layer="27"/>
+</element>
+<element name="R2" library="LinnesLab-Passives" package="R0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="" x="-49.53" y="-26.67" smashed="yes">
+<attribute name="NAME" x="-50.165" y="-26.035" size="0.7112" layer="25"/>
+<attribute name="VALUE" x="-50.165" y="-28.575" size="0.7112" layer="27"/>
+</element>
+<element name="R3" library="LinnesLab-Passives" package="R0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="" x="-49.53" y="-30.48" smashed="yes">
+<attribute name="NAME" x="-50.165" y="-29.845" size="0.7112" layer="25"/>
+<attribute name="VALUE" x="-50.165" y="-32.385" size="0.7112" layer="27"/>
+</element>
+<element name="R4" library="LinnesLab-Passives" package="R0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="" x="-49.53" y="-34.29" smashed="yes">
+<attribute name="NAME" x="-50.165" y="-33.655" size="0.7112" layer="25"/>
+<attribute name="VALUE" x="-50.165" y="-36.195" size="0.7112" layer="27"/>
+</element>
+<element name="R5" library="LinnesLab-Passives" package="R0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="" x="-49.53" y="-38.1" smashed="yes">
+<attribute name="NAME" x="-50.165" y="-37.465" size="0.7112" layer="25"/>
+<attribute name="VALUE" x="-50.165" y="-40.005" size="0.7112" layer="27"/>
+</element>
+<element name="R6" library="LinnesLab-Passives" package="R0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="" x="-49.53" y="-41.91" smashed="yes">
+<attribute name="NAME" x="-50.165" y="-41.275" size="0.7112" layer="25"/>
+<attribute name="VALUE" x="-50.165" y="-43.815" size="0.7112" layer="27"/>
+</element>
+<element name="R7" library="LinnesLab-Passives" package="R0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="" x="-49.53" y="-45.72" smashed="yes">
+<attribute name="NAME" x="-50.165" y="-45.085" size="0.7112" layer="25"/>
+<attribute name="VALUE" x="-50.165" y="-47.625" size="0.7112" layer="27"/>
+</element>
+<element name="R8" library="LinnesLab-Passives" package="R0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="" x="-49.53" y="-49.53" smashed="yes">
+<attribute name="NAME" x="-50.165" y="-48.895" size="0.7112" layer="25"/>
+<attribute name="VALUE" x="-50.165" y="-51.435" size="0.7112" layer="27"/>
+</element>
+<element name="R9" library="LinnesLab-Passives" package="R0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="" x="-49.53" y="-53.34" smashed="yes">
+<attribute name="NAME" x="-50.165" y="-52.705" size="0.7112" layer="25"/>
+<attribute name="VALUE" x="-50.165" y="-55.245" size="0.7112" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -620,6 +754,144 @@ design rules under a new name.</description>
 </signal>
 <signal name="DTR">
 <contactref element="C3" pad="1"/>
+</signal>
+<signal name="LEFT">
+<contactref element="U1" pad="23"/>
+</signal>
+<signal name="LD8">
+<contactref element="U1" pad="24"/>
+<contactref element="R4" pad="1"/>
+<wire x1="-0.7874" y1="10.42" x2="-50.38" y2="-34.29" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LD7">
+<contactref element="U1" pad="25"/>
+<contactref element="R7" pad="1"/>
+<wire x1="-2.28" y1="11.9126" x2="-50.38" y2="-45.72" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LD6">
+<contactref element="U1" pad="26"/>
+<contactref element="LED1" pad="6"/>
+<wire x1="-3.08" y1="11.9126" x2="-27.94" y2="-17.08" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LD5">
+<contactref element="U1" pad="27"/>
+<contactref element="R9" pad="1"/>
+<wire x1="-3.88" y1="11.9126" x2="-50.38" y2="-53.34" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LD4">
+<contactref element="U1" pad="28"/>
+<contactref element="LED1" pad="4"/>
+<wire x1="-4.68" y1="11.9126" x2="-33.02" y2="-17.08" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ACTION">
+<contactref element="U1" pad="19"/>
+</signal>
+<signal name="RIGHT">
+<contactref element="U1" pad="22"/>
+</signal>
+<signal name="RXD">
+<contactref element="U1" pad="30"/>
+</signal>
+<signal name="TXD">
+<contactref element="U1" pad="31"/>
+</signal>
+<signal name="LD3">
+<contactref element="U1" pad="32"/>
+<contactref element="LED1" pad="3"/>
+<wire x1="-7.88" y1="11.9126" x2="-35.56" y2="-17.08" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LD2">
+<contactref element="U1" pad="1"/>
+<contactref element="R8" pad="1"/>
+<wire x1="-9.3726" y1="10.42" x2="-50.38" y2="-49.53" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LD1">
+<contactref element="U1" pad="2"/>
+<contactref element="R6" pad="1"/>
+<wire x1="-9.3726" y1="9.62" x2="-50.38" y2="-41.91" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="MODE">
+<contactref element="U1" pad="9"/>
+</signal>
+<signal name="LD16">
+<contactref element="U1" pad="10"/>
+<contactref element="LED1" pad="16"/>
+<wire x1="-7.08" y1="3.3274" x2="-40.64" y2="6.92" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LD15">
+<contactref element="U1" pad="11"/>
+<contactref element="LED1" pad="15"/>
+<wire x1="-6.28" y1="3.3274" x2="-38.1" y2="6.92" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LD14">
+<contactref element="U1" pad="12"/>
+<contactref element="R3" pad="1"/>
+<wire x1="-5.48" y1="3.3274" x2="-50.38" y2="-30.48" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LD13">
+<contactref element="U1" pad="13"/>
+<contactref element="LED1" pad="13"/>
+<wire x1="-4.68" y1="3.3274" x2="-33.02" y2="6.92" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LD12">
+<contactref element="U1" pad="14"/>
+<contactref element="R5" pad="1"/>
+<wire x1="-3.88" y1="3.3274" x2="-50.38" y2="-38.1" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LD11">
+<contactref element="U1" pad="15"/>
+<contactref element="LED1" pad="11"/>
+<wire x1="-3.08" y1="3.3274" x2="-27.94" y2="6.92" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LD10">
+<contactref element="U1" pad="16"/>
+<contactref element="LED1" pad="10"/>
+<wire x1="-2.28" y1="3.3274" x2="-25.4" y2="6.92" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LD9">
+<contactref element="U1" pad="17"/>
+<contactref element="R2" pad="1"/>
+<wire x1="-0.7874" y1="4.82" x2="-50.38" y2="-26.67" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="LED1" pad="9"/>
+<contactref element="R2" pad="2"/>
+<wire x1="-22.86" y1="6.92" x2="-48.68" y2="-26.67" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="LED1" pad="14"/>
+<contactref element="R3" pad="2"/>
+<wire x1="-35.56" y1="6.92" x2="-48.68" y2="-30.48" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$5">
+<contactref element="LED1" pad="8"/>
+<contactref element="R4" pad="2"/>
+<wire x1="-22.86" y1="-17.08" x2="-48.68" y2="-34.29" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$6">
+<contactref element="LED1" pad="12"/>
+<contactref element="R5" pad="2"/>
+<wire x1="-30.48" y1="6.92" x2="-48.68" y2="-38.1" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$7">
+<contactref element="LED1" pad="1"/>
+<contactref element="R6" pad="2"/>
+<wire x1="-40.64" y1="-17.08" x2="-48.68" y2="-41.91" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
+<contactref element="LED1" pad="7"/>
+<contactref element="R7" pad="2"/>
+<wire x1="-25.4" y1="-17.08" x2="-48.68" y2="-45.72" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$9">
+<contactref element="LED1" pad="2"/>
+<contactref element="R8" pad="2"/>
+<wire x1="-38.1" y1="-17.08" x2="-48.68" y2="-49.53" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$10">
+<contactref element="LED1" pad="5"/>
+<contactref element="R9" pad="2"/>
+<wire x1="-30.48" y1="-17.08" x2="-48.68" y2="-53.34" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
