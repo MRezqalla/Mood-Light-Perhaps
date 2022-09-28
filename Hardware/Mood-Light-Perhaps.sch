@@ -4637,7 +4637,6 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <part name="D2" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC" package3d_urn="urn:adsk.eagle:package:15664784/2"/>
 <part name="C8" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="4.7u"/>
 <part name="R13" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="100k"/>
-<part name="LED2" library="LinnesLab-LED" deviceset="LED" device="5MM"/>
 <part name="R14" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2"/>
 <part name="C9" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="4.7u"/>
 <part name="GND15" library="LinnesLab-Symbols" deviceset="GND" device=""/>
@@ -4645,6 +4644,7 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <part name="GND17" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND18" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="LinnesLab-Symbols" deviceset="VLIPO" device=""/>
+<part name="LED3" library="LinnesLab-LED" deviceset="LED" device="0805"/>
 </parts>
 <sheets>
 <sheet>
@@ -4879,10 +4879,6 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <attribute name="NAME" x="64.5414" y="-95.25" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="69.342" y="-95.25" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED2" gate="G$1" x="76.2" y="-93.98" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.629" y="-89.408" size="1.778" layer="95" font="vector" rot="R270"/>
-<attribute name="VALUE" x="74.295" y="-89.408" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
-</instance>
 <instance part="R14" gate="G$1" x="111.76" y="-86.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="110.2614" y="-90.17" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="115.062" y="-90.17" size="1.778" layer="96" rot="R90"/>
@@ -4905,6 +4901,10 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 </instance>
 <instance part="SUPPLY14" gate="G$1" x="119.38" y="-76.2" smashed="yes">
 <attribute name="VALUE" x="119.38" y="-73.406" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="LED3" gate="G$1" x="76.2" y="-91.44" smashed="yes" rot="R180">
+<attribute name="NAME" x="79.629" y="-86.868" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="74.295" y="-86.868" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -5584,17 +5584,17 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="-96.52" x2="66.04" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="-99.06" x2="76.2" y2="-99.06" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="76.2" y1="-99.06" x2="76.2" y2="-96.52" width="0.1524" layer="91"/>
 <label x="81.28" y="-99.06" size="1.778" layer="95"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<wire x1="76.2" y1="-99.06" x2="76.2" y2="-93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
-<wire x1="76.2" y1="-88.9" x2="76.2" y2="-83.82" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="STAT"/>
 <wire x1="76.2" y1="-83.82" x2="81.28" y2="-83.82" width="0.1524" layer="91"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
+<wire x1="76.2" y1="-86.36" x2="76.2" y2="-83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
