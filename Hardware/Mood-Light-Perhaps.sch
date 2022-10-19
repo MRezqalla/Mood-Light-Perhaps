@@ -4645,6 +4645,7 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <part name="GND18" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="LinnesLab-Symbols" deviceset="VLIPO" device=""/>
 <part name="LED3" library="LinnesLab-LED" deviceset="LED" device="0805"/>
+<part name="GND19" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4906,6 +4907,9 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <attribute name="NAME" x="79.629" y="-86.868" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="74.295" y="-86.868" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
 </instance>
+<instance part="GND19" gate="G$1" x="132.08" y="-58.42" smashed="yes">
+<attribute name="VALUE" x="132.08" y="-58.674" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5027,6 +5031,11 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <pinref part="GND18" gate="G$1" pin="GND"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="-96.52" x2="58.42" y2="-91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="-55.88" x2="132.08" y2="-50.8" width="0.1524" layer="91"/>
+<pinref part="GND19" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -5491,12 +5500,6 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <pinref part="LED1" gate="G$1" pin="K8"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="10.16" x2="106.68" y2="10.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="-55.88" x2="132.08" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
